@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['openweather.py'],
-             pathex=['/Users/alicia/Documents/Websites/ITsimplified/1startbootstrap-landing-page-gh-pages/posts'],
+             pathex=['...YOUR FILE PATH...'],
              binaries=[],
              datas=[],
              hiddenimports=[],
