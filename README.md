@@ -11,4 +11,4 @@ In MacOSX, double click the [.app] file. In Windows, double click the [.exe] fil
 For Mac users, the [.app] file can be added to the doc by dragging and dropping it on the dock. Similarly, for Windows users the [.exe] file can be pinned to the task bar by dragging and dropping it on the task bar.
 
 ### Widget Notes:
-This weather widget only provides weather information for US cities by zip.  It uses weather data provided by https://openweathermap.org. These applications were produced using Python.  Packages include: Tkinter and pyinstaller.
+This weather widget only provides weather information for US cities by zip.  It uses weather data provided by https://openweathermap.org. These applications were produced using Python.  Packages used for development include: Tkinter and pyinstaller.
