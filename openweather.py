@@ -1,10 +1,3 @@
-'''
-only allow for US zips
-use imperial units for fahrenheit
-requests for URLs
-io and PIL for image from URL
-'''
-
 import requests
 from Tkinter import *
 import io
@@ -12,22 +5,19 @@ from PIL import ImageTk, Image
 from urllib2 import urlopen
 
 root=Tk()
-ico = ''
 
 root.title("Weather Widget By IT Simplified")
-root.resizable(0,0)		#prevents user from resizing canvas
-root.wm_attributes('-topmost',1)	#place window in front of all other windows
-root.geometry("375x150") #want the size of the app to be 500x500
+root.resizable(0,0)
+root.wm_attributes('-topmost',1)
+root.geometry("375x150")
 
 #main area display
 info = StringVar()
 
-weather = Message(root, textvariable = info, width = 200) 	#when stringvar updates so does this
-info.set("What's your weather?")			#initial value of stringvar
+weather = Message(root, textvariable = info, width = 200) 	
+info.set("What's your weather?")			
 weather.grid(row=1, column=1)
 
-#image_png = Image.open('photos/open-weather.gif')
-#image_tk = ImageTk.PhotoImage(image_png.convert("RGB"))
 image_address = 'http://openweathermap.org/img/w/13n.png'
 image_open = urlopen(image_address)
 image_file = io.BytesIO(image_open.read())
@@ -76,8 +66,5 @@ e.grid(row=3, column=2)
 
 sub = Button(root,text='Get Weather', command = getWeather)
 sub.grid(row=4, column=2)
-
-
-
 
 root.mainloop()
