@@ -29,7 +29,8 @@ label_img.grid(row=1, column=2)
 
 #function that gets weather
 def getWeather():
-	api_address = 'http://api.openweathermap.org/data/2.5/weather?appid=3bb63558493463b7e3c58fc57beb2ee1&units=imperial&zip='
+	#Replace YOURAPIKEYHERE with the API key you obtain by signing up at https://openweathermap.org/
+	api_address = 'http://api.openweathermap.org/data/2.5/weather?appid=YOURAPIKEYHERE&units=imperial&zip='
 	country_code = ',us'
 	zip_code = e.get()
 	
