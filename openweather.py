@@ -53,8 +53,8 @@ def getWeather():
 		image_open = urlopen(image_address)
 		image_file = io.BytesIO(image_open.read())
 		image_png = Image.open(image_file)
-		image_tk2 = ImageTk.PhotoImage(image_png.convert("RGB")) #important! images do not show on mac unless you use this
-		label_img.configure(image=image_tk2)	#updates an image
+		image_tk2 = ImageTk.PhotoImage(image_png.convert("RGB")) 
+		label_img.configure(image=image_tk2)	
 		label_img.image = image_tk2	
 
 
