@@ -8,4 +8,4 @@ This weather widget only provides weather information for US cities by zip.  It 
 To create a stand-alone application, use pyinstaller with the included spec and icon files.  Be sure to change the pathex filepath to the directory path that the widget files were downloaded to.  Important! Windows users remove the app = BUNDLE block.
 
 ### Downloading the Stand-Alone Application:
-For your convenience, you can download the stand-alone applications from our website.  Use http://itsimplified-ms.com/posts/openweather-dist/Windows/openweather.exe for Windows and http://itsimplified-ms.com/posts/openweather-dist/MacOSX.zip for MacOSX.
+For your convenience, you can download the stand-alone applications from our website https://goo.gl/hyrFWg.  
