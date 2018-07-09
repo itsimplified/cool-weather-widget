@@ -9,3 +9,6 @@ To create a stand-alone application, use pyinstaller with the included spec and 
 
 ### Downloading the Stand-Alone Application:
 For your convenience, you can download the stand-alone applications from our website https://goo.gl/hyrFWg.  
+
+### To Learn More:
+To learn more about this app, read my blog posts on Quora at https://cool-weather-widget.quora.com/ or Medium at https://goo.gl/TWnAHo
